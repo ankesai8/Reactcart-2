@@ -1,3 +1,8 @@
+@media (max-width: 780px) {
+  .cart-item h2, .cart-item h4{
+    font-size: 15px;
+  }
+}
 .cart-item {
   display: flex;
   justify-content: space-between;
@@ -14,9 +19,4 @@
     margin-right: 20px;
     padding: 5px 20px;
     border-radius: 5px;
-}
-@media (max-width: 780px) {
-  .cart-item h2, .cart-item h4{
-    font-size: 15px;
-  }
 }
