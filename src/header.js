@@ -10,7 +10,7 @@ const Header = (props) => {
       
     <select class="form-select" aria-label="Default select example">
   <option selected>shop</option>
-  <option value="1">All products</option></vl>
+  <option value="1">All products</option>
   <option value="2">New arrivals</option>
   <option value="3">popular items</option>
 </select>
