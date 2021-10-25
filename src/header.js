@@ -9,7 +9,8 @@ const Header = (props) => {
       <i href="#"class="navbar-brand"> About</i>
       
     <select class="form-select form-select-lg mb-3" aria-label=".form-select-lg example">
-
+    
+              <option selected>shop</option>
               <option value="1">All products</option>
               <option value="2">New arrivals</option>
               <option value="3">popular items</option>
