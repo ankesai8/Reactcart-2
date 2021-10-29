@@ -14,7 +14,7 @@ const ModalOverlay = (props) => {
 };
 const Cartmodel = (props) => {
   return (
-    <React.Fragment>
+    <>
       {ReactDom.createPortal(
         <Backdrop onclick={props.onclick} />,
         document.getElementById("overlay")
@@ -23,7 +23,7 @@ const Cartmodel = (props) => {
         <ModalOverlay value={props.value} onclick={props.onclick} onremove={props.onremove} />,
         document.getElementById("overlay")
       )}
-    </React.Fragment>
+    </>
   );
 };
 export default Cartmodel;
